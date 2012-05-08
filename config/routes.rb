@@ -1,4 +1,10 @@
 RailsinstallerDemo::Application.routes.draw do
+  resources :microposts
+
+  resources :users
+
+  get "first/index"
+
   get "welcome/index"
 
   # The priority is based upon order of creation:
